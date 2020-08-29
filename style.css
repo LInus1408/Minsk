@@ -45,14 +45,14 @@ span.word1 {
 }
 .picture3 {
         position: absolute; /* размещение */
-        left: 944px; /* сдвигаем влево */
+        left: 70%; /* сдвигаем влево */
         top: 90px; /* высота */
         width: 30%; /* ширина */
         height: 255px; /* высотка */
 }
 .picture4 {
         position: absolute; /* размещение */
-        left: 944px; /* сдвигаем влево */
+        left: 70%; /* сдвигаем влево */
         top: 357px; /* высота */
         width: 30%; /* ширина */
         height: 255px; /* высотка */
@@ -68,7 +68,7 @@ h1 {
 }
 #block2 {
     width: 100%; /* ширина блока */
-    height: 600px; /* высота блока */
+    height: 800px; /* высота блока */
     margin-top: 20px; /* дистанция отверхнего блока */
     border-style: solid; /* единой линией гриницы рамки */
     border-image-width: 80px; /* ширина рамки */
