@@ -1,0 +1,97 @@
+BODY {
+    background: #FFFAFA;
+    margin: 0;
+    letter-spacing: 1px; /* интервал */
+}
+div.number1  {
+    background-image: url(green.jpg); /* фотография */
+    height: 90px; /* высота картинки */
+    background-size: cover; /* растягиваем фон */
+    background-repeat: no-repeat; /* только одна картинка */
+    text-align: center; /* текст по центру */
+    font: 78px Bradley Hand, cursive; /* стиль текста */
+    color: OrangeRed; /*цвет текста*/
+}
+p.text1 {
+    border: 15px solid black;
+    height: 100%; /* высота блока */
+    border-image: url(border.png) 27 repeat round; /* границы блока в виде картинки */
+    text-align: justify; /* текст по ширине */
+    margin: 0% 30% 0px 30%; /* размещаем блок */
+    font-family: cursive; /* стиль шрифта */
+    background-color: LightGoldenrodYellow; /* фон блока */
+}
+span.words {
+    color: red;
+    font-weight: 100;
+    font-size: 24px;
+}
+span.word1 {
+    color: blue;
+    text-decoration: MidnightBlue Double underline; /* двойное синее подёркиваниеп */
+}
+
+.picture1 {
+    position: absolute; /* размещение */
+    top: 90px; /* высота */
+    width: 30%; /* ширина */
+    height: 255px; /* высотка */
+}
+.picture2 {
+    position: absolute; /* размещение */
+    top: 357px; /* высота */
+    width: 30%; /* ширина */
+    height: 255px; /* высотка */
+}
+.picture3 {
+        position: absolute; /* размещение */
+        left: 944px; /* сдвигаем влево */
+        top: 90px; /* высота */
+        width: 30%; /* ширина */
+        height: 255px; /* высотка */
+}
+.picture4 {
+        position: absolute; /* размещение */
+        left: 944px; /* сдвигаем влево */
+        top: 357px; /* высота */
+        width: 30%; /* ширина */
+        height: 255px; /* высотка */
+}
+h1 {
+    text-align: center;
+    margin: 1px;
+}
+#block p {
+    margin: 1px; /* дистанция */
+    text-align: left; /* текст по левому краю */
+    font: 16px Arial, sans-serif; /* шрифт */
+}
+#block2 {
+    width: 100%; /* ширина блока */
+    height: 600px; /* высота блока */
+    margin-top: 20px; /* дистанция отверхнего блока */
+    border-style: solid; /* единой линией гриницы рамки */
+    border-image-width: 80px; /* ширина рамки */
+    border-image-source: url(572ba1c58c3aa154826febc6.png); /* рисунок рамки */
+    border-image-slice: 100; /* размер частей изображения рамки */
+    border-image-repeat: stretch; /* не копировать рамку */
+}
+#block2 #block3 {
+    margin-top: 50px; /* дистанция от верхей границы */
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%; 
+    /* ценцировать по центру */
+}
+#block2 #block3 p {
+text-align: center;
+font-size: 28px;
+margin: 1px;
+text-shadow: 1px 1px 10px black; /* тень */
+}
+#block2 ul {
+    list-style-image: url(images/sun.png); /*картинка маркированного списка */
+    margin: 5px; /* дистанция */
+    font: 16px Arial, sans-serif; /* шрифт */
+}
