@@ -1,1 +1,1 @@
-Minsk
+<a href="https://linus1408.github.io/Minsk/">Минск</a>
